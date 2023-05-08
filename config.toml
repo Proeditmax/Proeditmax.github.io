@@ -1,0 +1,141 @@
+baseURL = "/"
+title = "ProEditMax"
+languageCode = "en-us"
+defaultContentLanguage = "en"
+paginate = "7"
+theme = "spectral"
+
+
+[params]
+fancyTitle = '<img width="90%" src="/img/logoo.jpg" alt="PROEDITMAX">' # title for frontpage, may include image
+copyright = "MG"
+description = "Welcome to my collection of creative works"
+startbuttonText = "Contact"
+startbuttonLink = "#contact"
+body_is_markdown = true
+img = "img/Old2.gif"
+#custom_css = "foo.css"
+#images = ["img/Old2.gif"]
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[[params.menu.main]]
+url = '/'
+title = "Home"
+
+[[params.menu.main]] 
+url = "#three"
+title = "About"
+
+[taxonomies]
+    tag = "tags"
+    category = "categories"
+    series = "series"
+
+[params.one]
+enable = true
+title = 'fast, efficient work and according to the clients desire'
+body = '''
+I specialize in improving the quality of photos, adjusting the colors to bring out their true beauty, and restoring old or damaged images to their former glory.
+'''
+
+[[params.one.icon]]
+icon = "fa-diamond"
+style = "1"
+label = "Lorem"
+
+[[params.one.icon]]
+icon = "fa-heart-o"
+style = "2"
+label = "Ipsum"
+
+[[params.one.icon]]
+icon = "fa-clock-o"
+style = "3"
+label = "Dolor"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "img/Old2.gif"
+title = 'Bringing the Past to Life: Stunning Transformations from Black and White to Color'
+body = 'I transformed black and white photos into color using advanced software and my artistic expertise. The results were stunning, bringing the past to life with vibrant and accurate details.'
+
+[[params.two.section]]
+img = "img/Pixel.gif"
+title = 'Transforming Pixelated and Blurry Images into High-Quality 4K'
+body = 'Here I show my skills in improving the quality of pixelated or blurry photos by transforming them into high quality 4k images.  I use advanced software and techniques and always make sure to pay attention to detail.'
+
+[[params.two.section]]
+img = "img/Ultimate.gif"
+title = 'Complete Transformation'
+body = 'Here I show you some examples from the initial transformation of the black and white photography to color and with the final remastering.'
+
+
+
+[params.three]
+enable = true
+title = 'About Me'
+body = '''
+My name is Matias Gonzalez, and as a professional photographs editor, I specialize in enhancing images through adjusting parameters. I have worked on various commercial campaigns and personal photoshoots. My software proficiency includes Adobe Photoshop, Lightroom, and other related tools, and I pride myself on meeting deadlines and delivering high-quality work within budget. I am organized, efficient, and always willing to go the extra mile to ensure client satisfaction, providing the expertise and creativity necessary to achieve your goals.
+'''
+   
+[[params.three.feature]]
+
+icon = "fa-paper-plane-o"
+title = "Immediate response to your query by all available means."
+body = ""
+
+[[params.three.feature]]
+icon = "fa-laptop"
+title = "multiple photo editing software"
+body = ""
+
+[[params.three.feature]]
+icon = "fa-heart-o"
+title = "constant communication until the end of the work"
+body = ""
+
+[[params.three.feature]]
+icon = "fa-flag-o"
+title = "Satisfaction guaranteed"
+body = ""
+
+[[params.cta.link]]
+href = "#"
+text = "Activate"
+special = true
+
+[[params.cta.link]]
+href = "#"
+text = "Learn More"
+special = false
+
+[params.contact]
+enable = true
+title = "I'm glad you visited my website and are interested in my services."
+body = "You can trust that I will provide you with the best attention and quality in everything I offer."
+phone = "+54 (261) 3059135"
+address = ""
+email = "proeditmax@gmail.com"
+subject = ""
+formspree_form_id = "xwkjayqo"
+
+[params.social]
+enable = "true"
+twitter = ""
+facebook = ""
+instagram = "https://instagram.com/proeditmax?igshid=MTIzZWQxMDU="
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
