@@ -22,7 +22,7 @@
 	<meta property="og:url" content="/" /> 
 	
 	
-	<title>Botón para reproducir un GIF animado</title> 	<style> 		/* Estilos CSS para el botón y la imagen */ 		.button { 			display: flex; 			justify-content: center; 			align-items: center; 			width: 70px; 			height: 70px; 			border-radius: 50%; 			background-color: #4CAF50; 			color: #fff; 			font-size: 20px; 			cursor: pointer; 		} 		.image-container { 			display: flex; 			justify-content: center; 			align-items: center; 			position: relative; 			width: 300px; 			height: 300px; 			overflow: hidden; 			border-radius: 50%; 			background-color: #f1f1f1; 		} 		.image-container img { 			position: absolute; 			top: 0; 			left: 0; 			height: 100%; 			width: 100%; 			object-fit: cover; 		} 		.image-container img.gif { 			display: none; 		} 	</style>
+	<title>Botón para reproducir un GIF animado</title> 	<style> 		/* Estilos CSS para el botón y la imagen */ 		.button { 			display: flex; 			justify-content: center; 			align-items: center; 			width: 70px; 			height: 70px; 			border-radius: 50%; 			background-color: #4CAF50; 			color: #fff; 			font-size: 20px; 			cursor: pointer; 		} 		.image-container { 			display: flex; 			justify-content: center; 			align-items: center; 			position: center; 			width: 300px; 			height: 300px; 			overflow: hidden; 			border-radius: 50%; 			background-color: #f1f1f1; 		} 		.image-container img { 			position: absolute; 			top: 0; 			left: 0; 			height: 100%; 			width: 100%; 			object-fit: cover; 		} 		.image-container img.gif { 			display: none; 		} 	</style>
 	
 	
 	</head>
@@ -74,8 +74,8 @@
 			<section class="spotlight">
 			    
 				<div class="image-container">
-		<img src="logoo.jpg" alt="Imagen estática">
-		<img class="gif" src="oldf.gif" alt="GIF animado">
+		<img src="img/logoo.jpg" alt="Imagen estática">
+		<img class="gif" src="img/oldf.gif" alt="GIF animado">
 		<div class="button" onclick="playGif()">▶</div>
 	</div>
 
