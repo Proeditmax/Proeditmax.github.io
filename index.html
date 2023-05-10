@@ -21,10 +21,6 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:url" content="/" /> 
 	
-	
-	<title>Botón para reproducir un GIF animado</title> 	<style> 		/* Estilos CSS para el botón y la imagen */ 		.button { 			display: flex; 			justify-content: center; 			align-items: center; 			width: 70px; 			height: 70px; 			border-radius: 50%; 			background-color: #4CAF50; 			color: #fff; 			font-size: 20px; 			cursor: pointer; 		} 		.image-container { 			display: flex; 			justify-content: center; 			align-items: center; 			position: center; 			width: 300px; 			height: 300px; 			overflow: hidden; 			border-radius: 50%; 			background-color: #f1f1f1; 		} 		.image-container img { 			position: absolute; 			top: 0; 			left: 0; 			height: 100%; 			width: 100%; 			object-fit: cover; 		} 		.image-container img.gif { 			display: none; 		} 	</style>
-	
-	
 	</head>
 <body class="landing is-preload">
 	<div id="page-wrapper">
@@ -68,7 +64,7 @@
 			</div>
 		</section>
 		
-		/* Primer Imagen con texto. Old */
+		/* Primer Imagen con texto Old */
 		
 		<section id="two" class="wrapper alt style2">
 			<section class="spotlight">
@@ -158,24 +154,11 @@
 			</ul>
 			<ul class="copyright">
 				<li>&copy; 2023 MG</li>
-				<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+				<li>Design: <a href="">HTML5 UP</a></li>
 			</ul>
 		</footer>
 	</div>
 	<script src="/js/bundle.min.23c96a7c45222cb63f5802b919967e5b2a649c059781c47813baa870dd546cf951a4f7aa3ccc02261fb86ff19bb15a2434f45251c91316faf98dcdc4bb2cf00f.js" integrity="sha512-I8lqfEUiLLY/WAK5GZZ&#43;WypknAWXgcR4E7qocN1UbPlRpPeqPMwCJh&#43;4b/GbsVokNPRSUckTFvr5jc3EuyzwDw=="></script>
-	
-	<script>
-		/* Función para reproducir el GIF al pulsar el botón */
-		function playGif() {
-			var imgStatic = document.querySelector('.image-container img:not(.gif)');
-			var imgGif = document.querySelector('.image-container img.gif');
-			var button = document.querySelector('.button');
-
-			imgStatic.style.display = 'none';
-			imgGif.style.display = 'block';
-			button.style.display = 'none';
-		}
-	</script>
 	
 	
 </body>
